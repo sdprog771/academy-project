@@ -1,0 +1,10 @@
+${AnsiColor.CYAN}________          ______       ________
+${AnsiColor.CYAN}___  __/_____________  /_      ___  __ \____________
+${AnsiColor.CYAN}__  /  _  _ \  ___/_  __ \     __  /_/ /_  ___/  __ \
+${AnsiColor.CYAN}_  /   /  __/ /__ _  / / /     _  ____/_  /   / /_/ /
+${AnsiColor.CYAN}/_/    \___/\___/ /_/ /_/      /_/     /_/    \____/
+
+
+${AnsiColor.CYAN}Powered by Spring Boot ${spring-boot.version}
+
+${AnsiColor.CYAN}******************************************************

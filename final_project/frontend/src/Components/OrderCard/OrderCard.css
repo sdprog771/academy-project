@@ -1,0 +1,39 @@
+#title{
+    margin-left: 8%;
+    font-family: Bahnschrift;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #582fa1!important;
+}
+#total {
+    display: block;
+    align-items: center;
+    font-family: Bahnschrift;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+#actionsbutton {
+    background: #8365a3;
+    border-radius: 8px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px;
+    margin-left:70%;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+

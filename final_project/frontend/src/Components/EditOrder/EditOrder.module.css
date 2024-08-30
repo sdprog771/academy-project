@@ -1,0 +1,103 @@
+.form {
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.form .format {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+}
+
+.label {
+    color: #8365a3;
+    font-weight: bold;
+    font-size: 1.2rem;
+    white-space: pre-line;
+    margin-bottom:2px;
+    flex-direction: column;
+}
+
+.form .formtext {
+    /*display: block;*/
+    /*justify-content: center;*/
+}
+
+.positionSave {
+    text-align: end;
+    padding: 5px;
+}
+
+.save {
+    background: #8365a3;
+    border-radius: 8px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    width: 150px;
+    margin-top: 1px;
+    margin-right:10px;
+}
+
+.close {
+    background: #8365a3;
+    border-radius: 8px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    width: 150px;
+}
+
+.all {
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    padding-top: 4px;
+}
+
+.allback {
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+
+

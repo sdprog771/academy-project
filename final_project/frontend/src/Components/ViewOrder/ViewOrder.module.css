@@ -1,0 +1,44 @@
+.format{
+    color: #8365a3;
+    background-color: #cacccc;
+    padding-top: 10%;
+    margin-left: 20%;
+    margin-right: 20% ;
+    padding-bottom: 10%;
+
+}
+
+.ok{
+    margin: auto;
+}
+
+
+
+table{
+    table-layout: fixed;
+    margin: 5% auto;
+    width: 90%;
+    border: dimgray dashed 2px;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+thead {
+    width: 30%;
+    background-color: #cacccc
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f0f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #cacccc;
+}
+
+#container{
+    margin-left: 50%!important;
+}

@@ -1,0 +1,56 @@
+services:
+  backend:
+    image: alpine:latest
+    build: backend
+    environment:
+      - MYSQL_DATABASE=final_project
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_USERNAME=${MYSQL_USERNAME}
+      - CROSS_ORIGIN=${CROSS_ORIGIN}
+    restart: always
+    ports:
+     - "8090:8080"
+    networks:
+      - react-spring
+      - spring-mysql
+  
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    env_file:
+      - variables.env
+    restart: always
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./db/final_project_db.sql:/docker-entrypoint-initdb.d/init.sql
+      - db-data:/var/lib/data
+    networks:
+      - spring-mysql
+  frontend:
+    build:
+      context: frontend
+      target: development
+    ports:
+      - 3000:3000
+    environment:
+      - REACT_APP_SERVER_HOST=${REACT_APP_SERVER_HOST}
+    volumes:
+      - ./frontend/src:/code/src
+      - /project/node_modules
+    networks:
+      - react-spring
+    depends_on:
+      - backend
+    expose:
+      - 3306
+      - 33060
+volumes:
+  db-data:
+    driver: local
+  
+    
+networks:
+  react-spring: {}
+  spring-mysql: {}

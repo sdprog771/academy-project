@@ -1,0 +1,133 @@
+.form {
+
+    display: block;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    /*justify-content: center;*/
+
+
+}
+
+.input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    /*display: block;*/
+    width: 90%;
+    /*justify-content: center;*/
+
+}
+
+
+
+/*.actions button {*/
+/*    font: inherit;*/
+/*    cursor: pointer;*/
+/*    background-color: transparent;*/
+/*    border: 1px solid #8a2b06;*/
+/*    padding: 0.5rem 2rem;*/
+/*    border-radius: 25px;*/
+/*    margin-left: 1rem;*/
+/*}*/
+
+/*.actions button:hover,*/
+/*.actions button:active {*/
+/*    background-color: #5a1a01;*/
+/*    border-color: #5a1a01;*/
+/*    color: white;*/
+/*}*/
+
+/*.actions .button--alt {*/
+/*    color: #8a2b06;*/
+/*}*/
+
+/*.actions .button {*/
+/*    background-color: #8a2b06;*/
+/*    color: white;*/
+/*}*/
+
+.form .format {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    /*justify-content: center;*/
+
+
+}
+
+.label {
+    color: #8365a3;
+    font-weight: bold;
+    font-size: 1.2rem;
+    white-space: pre-line;
+    margin-bottom:6px;
+    /*display: flex;*/
+    flex-direction: column;
+    /*justify-content: center;*/
+
+}
+
+.form .formtext {
+    /*display: block;*/
+    /*justify-content: center;*/
+}
+
+/*FormControl[type="submit"] {*/
+/*    background-color: #8365a3;*/
+/*    color: #8365a3;*/
+/*    width: 100%;*/
+/*    padding: .5rem .8rem .5rem .8rem;*/
+/*    margin: .9vw 0;*/
+/*    border: 0;*/
+/*    border-radius: 5px;*/
+/*    font-size: 20px;*/
+/*    white-space: pre-line;*/
+/*    justify-content: center;*/
+
+/*}*/
+
+.positionSubmit {
+    text-align: end;
+    padding: 10px;
+}
+
+.submit {
+
+    background: #8365a3;
+    border-radius: 8px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+
+.all {
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 20px;
+
+
+}
